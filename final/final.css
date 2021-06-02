@@ -1,0 +1,76 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(base.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+
+.xbox .quadrant {
+    position: absolute;
+    background: url(quadrant.png);
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.xbox .back, .xbox .start {
+    background: url(start-select.png);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(abxy.png);
+    width: 48px;
+    height: 48px;
+}
+
+
+.xbox .button.pressed {
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.xbox .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+}
+
+.xbox .b {
+    background-position: -49px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.xbox .x {
+    background-position: -98px 0;
+    top: 58px;
+    left: 4px;
+}
+
+.xbox .y {
+    background-position: 48px 0;
+    left: 55px;
+    top: 7px;
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(stick.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+
+
+/*END Xbox One Controller Styling*/
